@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32
 
+PRODUCT_PACKAGES += \
+    libchokoballpal_shim
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
