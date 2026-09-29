@@ -108,7 +108,6 @@ persist.dbg.wfc_avail_ovr=1
 # Media
 vendor.vidc.enc.dcvs.extra-buff-count=2
 vendor.vidc.enc.disable.pq=false
-vendor.video.disable.ubwc=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
