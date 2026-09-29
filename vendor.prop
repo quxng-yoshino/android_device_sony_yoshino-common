@@ -161,6 +161,7 @@ vendor.usb.device=a800000.ssusb
 # Wifi
 ro.vendor.wifi.addr_path=/data/vendor/wifi/wlan_mac.bin
 wifi.interface=wlan0
+ro.vendor.wifi.sap.interface=wlan1
 
 # Zygote
 zygote.critical_window.minute=10
