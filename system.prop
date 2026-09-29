@@ -1,4 +1,7 @@
 # Audio
+audio.safemedia.force=true
+media.aac_51_output_enabled=true
+media.stagefright.audio.deep=true
 ro.vendor.qti.va_aosp.support=1
 
 # Assertive display

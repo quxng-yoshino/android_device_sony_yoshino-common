@@ -3,9 +3,6 @@ af.fast_track_multiplier=1
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=false
-audio.safemedia.force=true
-media.aac_51_output_enabled=true
-media.stagefright.audio.deep=true
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=false
@@ -53,7 +50,6 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 ro.vendor.bt.bdaddr_path=/data/vendor/bluetooth/bluetooth_bdaddr
-ro.vendor.btstack.hfp.ver=1.7
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
@@ -112,7 +108,6 @@ persist.dbg.wfc_avail_ovr=1
 # Media
 vendor.vidc.enc.dcvs.extra-buff-count=2
 vendor.vidc.enc.disable.pq=false
-vendor.video.disable.ubwc=1
 vendor.video.disable.ubwc=1
 
 # Perf
