@@ -88,6 +88,13 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+    'vendor/lib/libexcal_core.so': blob_fixup()
+        .binary_regex_replace(
+            b'\x00\x08\x00\x00\x00\xa0\x00\x00\x00\x08\x00\x00\x00\x08\x01\x00',
+            b'\x00\x08\x00\x00\x00\xa0\x00\x00\x00\x08\x00\x00\x80\x24\x01\x00'),
+    'vendor/lib/libsomc_chokoballpal.so': blob_fixup()
+        .binary_regex_replace(b'_Znwj\x00', b'cbnwj\x00')
+        .add_needed('libchokoballpal_shim.so'),
     'vendor/lib/libznr.so': blob_fixup()
         .add_needed('liblog.so'),
     ('vendor/lib/vendor.semc.hardware.light@1.0.so', 'vendor/lib/vendor.semc.system.idd@1.0.so',
