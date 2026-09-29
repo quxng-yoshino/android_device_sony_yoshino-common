@@ -3,3 +3,4 @@ r_dir_file(thermal-engine, sysfs)
 
 # Allow thermal-engine to get hwservicemanager_prop
 get_prop(thermal-engine, hwservicemanager_prop)
+hwbinder_use(thermal-engine)
