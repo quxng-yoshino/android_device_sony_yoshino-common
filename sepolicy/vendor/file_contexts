@@ -84,6 +84,7 @@
 # Camera
 /sys/devices/sony_camera_[0-9]+/info                                                     u:object_r:sysfs_camera:s0
 /sys/devices/virtual/input/input[0-9]+/chip_pow                                          u:object_r:sysfs_camera:s0
+/sys/devices/virtual/input/input[0-9]+/als_power_state                                   u:object_r:sysfs_camera:s0
 
 # NFC
 /dev/bd7602-i2c                               u:object_r:nfc_device:s0

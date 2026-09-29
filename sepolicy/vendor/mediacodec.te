@@ -1,0 +1,2 @@
+# libgui/GpuStats reads the unlabeled gpu.stats.debug.level property
+dontaudit mediacodec default_prop:file read;
