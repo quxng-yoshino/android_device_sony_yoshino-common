@@ -16,3 +16,4 @@ genfscon debugfs /wlan0                  u:object_r:debugfs_wlan:s0
 # Vibrator
 genfscon sysfs /devices/platform/soc/soc:ldo_vibrator/leds/vibrator              u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/soc/soc:ldo_vibrator/leds/vibrator                       u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/soc/18800000.qcom,icnss/net u:object_r:sysfs_net:s0
